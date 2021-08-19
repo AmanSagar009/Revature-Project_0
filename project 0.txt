@@ -1,7 +1,7 @@
 						PROJECT 0
 
 
--> way to import JSON file in MongoDB in our local system
+-> way to import JSON file in MongoDB from our local system
 
 -> c:\ProgramFiles\MongoDB\mongo-database-tools\bin\mongoimport" --dbrestinfo --collection restaurant --type json --file restaurants.json
 

@@ -6,7 +6,7 @@ client= MongoClient()
 
 db = client.restinfo            
 collectionNames= db.list_collection_names()   
-# print(collectionNames)
+
 
 for i in range(len(collectionNames)):
     c = collectionNames[i]
