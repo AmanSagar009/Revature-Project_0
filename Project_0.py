@@ -4,18 +4,18 @@ import datetime
 
 client= MongoClient()
 
-db = client.restinfo            
-collectionNames= db.list_collection_names()   
+db = client.restinfo                            # use database 
+collectionNames= db.list_collection_names()     # db.getCollectionNames()
 
 
 for i in range(len(collectionNames)):
     c = collectionNames[i]
-    d = db.get_collection(c)    
-    
+    d = db.get_collection(c)                    # db.nameOfcollection
+    # for e in d.find():                        # db.nameOfCollection.find(...)
     
 # Q1) Write a MongoDB query to display all the documents in the collection restaurants.   
  
-    # for e in d.find():
+    # for e in d.find():                       
     #     pprint.pprint(e)
 
 # Q2) Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine for all the documents in the collection restaurant.

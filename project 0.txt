@@ -1,4 +1,4 @@
-						PROJECT 0
+						PROJECT_0
 
 
 -> way to import JSON file in MongoDB from our local system
